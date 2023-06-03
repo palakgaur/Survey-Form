@@ -1,0 +1,106 @@
+body{
+  font-family:"Poppins", Sans-serif;
+  background-position:center;
+  color:black;
+}
+
+#title{
+  text-align:center;
+  font-size:40;
+  font-family:"Poppins", Sans-serif;
+  color:black;
+}
+
+#description{
+  font-style: italic;
+  font-size: 20;
+  text-align:center;
+  font-family:"Poppins", Sans-serif;
+  color:black;
+}
+
+
+#survey-form{
+  background-color: rgba(0, 0, 50);
+  color:white;
+ padding:70 70 70 70;
+ font-family: "Poppins",Sans-serif;
+ width:500;
+ height:1000;
+ margin: auto;
+ font-size:17px;
+ line-height:1.2em;
+}
+#name{
+  min-width:480px;
+  height:2rem;
+}
+::placeholder{
+  font-family: "Poppins",Sans-serif;
+  font-size:15px;
+}
+#email{
+  min-width:480px;
+  height:2rem;
+}
+::placeholder{
+  font-family: "Poppins",Sans-serif;
+  font-size:15px;
+}
+#number{
+  min-width:480px;
+  height:2rem;
+}
+::placeholder{
+  font-family: "Poppins",Sans-serif;
+  font-size:15px;
+}
+
+#submit{
+  background-color:#3AB066;
+  display:block;
+  color:white;
+  font-size:15px;
+  min-width:480px;
+  border-color:#3AB066;
+  height:2.5rem;
+  
+}
+#select{
+  min-width:480px;
+  height:2rem;
+}
+#dropdown{
+  min-width:480px;
+  height:2rem;
+}
+select{
+  font-family: "Poppins",Sans-serif;
+  font-size:15px;
+  color:rgb(80,80,80);
+}
+#textarea{
+  min-width:480px;
+  height:6rem;
+}
+::placeholder{
+  font-family: "Poppins",Sans-serif;
+  font-size:15px;
+}
+#apply{
+  font-size:13px;
+}
+#age{
+  font-size:13px;
+}
+input[type=text]{
+  
+  width:100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+input[type=submit]{
+  box-sizing: border-box;
+
+  border-radius: 2px;
+}
